@@ -19,7 +19,7 @@ function Index(){
                             Sorry,
                             <br />
                             <br />
-                            My website is not ready yet, I'll update this page as new things are
+                            My website is not ready yet. I will update this page as new things are
                             up and running.
                             <br />
                             <br />
