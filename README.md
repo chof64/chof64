@@ -1,7 +1,8 @@
 <h1 align="center">👋: Chad Fernandez, 🇵🇭, Student</h1>
 <h3 align="center">Learning new and interesting things.</h3>
 
-- 🔭 I’m currently working on [**Collection by CHOF64**](www.github.com/chof64/collection-by-chof64)
+
+- 🔭 I’m currently working on [**Collection by CHOF64**](https://www.github.com/chof64/collection-by-chof64)
 - 🌱 I’m currently learning **Next.js**
 - 📫 How to reach me: [**chadfernandez@duck.com**](mailto:chadfernandez@duck.com)
 - 😄 Pronouns: **he/him/his**
