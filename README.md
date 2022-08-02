@@ -9,7 +9,7 @@
 
 
 ## About me...
-I am Chad, and I am from the Philippines🇵🇭. I am a freshmen, taking BS Computer Science. On my free time, I like to learn by creating projects with Python and Next.js.
+I am Chad, and I am from the Philippines🇵🇭. I am a freshman, taking BS in Computer Science. In my free time, I like to learn by creating projects with Python and Next.js.
 
 
 
