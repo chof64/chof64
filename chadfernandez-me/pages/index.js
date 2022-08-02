@@ -9,13 +9,14 @@ function Index(){
             <Head>
                 <title>Chad Fernandez, 🇵🇭, Student</title>
             </Head>
-            <div className='flex flex-col items-center justify-center h-screen m-auto bg-gradient-to-r from-[#FB8D89] via-[#FEF085] to-[#A9DAC8] backdrop-blug-xl animate-gradient-xy'>
-                <div className='px-4 py-8 border-2 border-[#FFFCFF] bg-[#FFFCFF] shadow-2xl text-[#50514F] font-medium rounded-3xl'>
+
+            <div className='flex flex-col items-center justify-center h-screen'>
+                <div className='w-[85vw] md:w-[70vw] lg:max-w-[55vw] xl:max-w-[40vw] px-4 py-8 border 2 border-[#FFFCFF] bg-[#FFFCFF] shadow-2xl text-[#50514F] font-medium rounded-3xl'>
                     <div className='flex justify-center'>
                         <Image src={'/android-chrome-512x512.png'} width={70} height={70} alt={'chadfernandez.me icon'} />
                     </div>
-                    <div className='flex justify-center mt-5'>
-                        <p className='w-[60vh]'>
+                    <div className='flex justify-center'>
+                        <p className=''>
                             Sorry,
                             <br />
                             <br />
@@ -33,6 +34,7 @@ function Index(){
                     </div>
                 </div>
             </div>
+            <div className='-z-50 absolute inset-0 w-screen h-screen bg-gradient-to-r from-[#FB8D89] via-[#FEF085] to-[#A9DAC8] backdrop-blug-xl animate-gradient-xy'/>
         </>
     )
 }
