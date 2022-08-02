@@ -1,4 +1,16 @@
-### Hi there 👋
+<h1 align="center">👋: Chad Fernandez, 🇵🇭, Student</h1>
+<h3 align="center">Learning new and interesting things.</h3>
+
+- 🔭 I’m currently working on [**Collection by CHOF64**](www.github.com/chof64/collection-by-chof64)
+- 🌱 I’m currently learning **Next.js**
+- 📫 How to reach me: [**chadfernandez@duck.com**](mailto:chadfernandez@duck.com)
+- 😄 Pronouns: **he/him/his**
+
+
+## About me...
+I am Chad, and I am from the Philippines🇵🇭. I am a freshmen, taking BS Computer Science. On my free time, I like to learn by creating projects with Python and Next.js.
+
+
 
 <!--
 **chof64/chof64** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
