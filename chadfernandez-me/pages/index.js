@@ -1,20 +1,17 @@
+import Head from "next/head";
 
-import Head from 'next/head';
-import Image from 'next/image';
+import HeroUnderConstruction from "../components/hero-under-construction";
 
-import HeroUnderConstruction from '../components/hero-under-construction';
+function Index() {
+  return (
+    <>
+      <Head>
+        <title>Chad Fernandez, 🇵🇭, Student</title>
+      </Head>
 
-
-function Index(){
-    return(
-        <>
-            <Head>
-                <title>Chad Fernandez, 🇵🇭, Student</title>
-            </Head>
-
-            <HeroUnderConstruction />
-        </>
-    )
+      <HeroUnderConstruction />
+    </>
+  );
 }
 
-export default Index
+export default Index;
