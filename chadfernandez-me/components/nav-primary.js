@@ -14,6 +14,8 @@ const MenuLink = forwardRef((props, ref) => {
   );
 });
 
+MenuLink.displayName = 'MenuLink';
+
 function NavPrimary() {
   return (
     <Menu>
@@ -32,14 +34,14 @@ function NavPrimary() {
                   <div className="flex md:hidden">
                     <Menu.Button>
                       {open ? (
-                        <XIcon className="h-6 w-6" />
+                        <XIcon className="w-6 h-6" />
                       ) : (
-                        <MenuIcon className="h-6 w-6" />
+                        <MenuIcon className="w-6 h-6" />
                       )}
                     </Menu.Button>
                   </div>
 
-                  <div className="hidden divide-x text-sm md:flex">
+                  <div className="hidden text-sm divide-x md:flex">
                     <Link href="/">
                       <a className="px-4">Home</a>
                     </Link>
@@ -56,7 +58,7 @@ function NavPrimary() {
 
             <Menu.Items className="md:hidden">
               <div className="border-t-[0.5px] border-[#EBEAEA] bg-[#F9FBF2] bg-opacity-90 px-6 py-2 shadow backdrop-blur-lg">
-                <div className="flex flex-col text-right text-lg">
+                <div className="flex flex-col text-lg text-right">
                   <Menu.Item>
                     <MenuLink className="py-3" href="/">
                       Home
