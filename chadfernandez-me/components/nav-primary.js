@@ -21,11 +21,11 @@ function NavPrimary() {
     <Menu>
       {({ open }) => (
         <>
-          <div className="flex flex-col text-[#312F2F] shadow-md">
-            <div className="flex items-center justify-between bg-[#F9FBF2] bg-opacity-90 px-6 py-3 backdrop-blur-lg">
+          <div className="flex flex-col shadow-md text-colorCharcoal">
+            <div className="flex items-center justify-between px-6 py-3 bg-colorCultured bg-opacity-90 backdrop-blur-lg">
               <div>
                 <Link href="/">
-                  <h1 className="font-semibold">Chad Fernandez</h1>
+                  <h1 className="font-semibold cursor-pointer hover:text-colorVerdigris">Chad Fernandez</h1>
                 </Link>
               </div>
 
@@ -41,15 +41,15 @@ function NavPrimary() {
                     </Menu.Button>
                   </div>
 
-                  <div className="hidden text-sm divide-x md:flex">
+                  <div className="hidden text-sm font-medium divide-x md:flex">
                     <Link href="/">
-                      <a className="px-4">Home</a>
+                      <a className="px-4 hover:text-colorVerdigris">Home</a>
                     </Link>
                     <Link href="#">
-                      <a className="px-4">About</a>
+                      <a className="px-4 hover:text-colorVerdigris">About</a>
                     </Link>
                     <Link href="#">
-                      <a className="px-4">Contact</a>
+                      <a className="px-4 hover:text-colorVerdigris">Contact</a>
                     </Link>
                   </div>
                 </nav>
@@ -57,8 +57,8 @@ function NavPrimary() {
             </div>
 
             <Menu.Items className="md:hidden">
-              <div className="border-t-[0.5px] border-[#EBEAEA] bg-[#F9FBF2] bg-opacity-90 px-6 py-2 shadow backdrop-blur-lg">
-                <div className="flex flex-col text-lg text-right">
+              <div className="border-t-[1px] border-colorVerdigris bg-colorCultured bg-opacity-80 px-6 py-2 shadow backdrop-blur-lg">
+                <div className="flex flex-col text-lg font-semibold text-right">
                   <Menu.Item>
                     <MenuLink className="py-3" href="/">
                       Home

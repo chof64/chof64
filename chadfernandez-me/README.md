@@ -1,3 +1,15 @@
+
+# [chadfernandez.me](https://chadfernandez.me)
+
+Development: [dev.chof64.vercel.app](https://dev.chof64.vercel.app)
+Production: [chadfernandez.me](https://chadfernandez.me)
+
+---
+
+<https://coolors.co/f9fbf2-312f2f-47a8bd-fa9f42-0b6e4f>
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
