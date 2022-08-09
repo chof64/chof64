@@ -6,6 +6,12 @@ module.exports = {
     ],
     theme: {
         extend: {
+            "colors": {
+                //* https://coolors.co/233d4d-f9f9f9-28afb0
+                'colorCultured': '#F9F9F9', //? Cultured
+                'colorCharcoal': '#233D4D', //? Charcoal
+                'colorVerdigris': '#28AFB0', //? Verdigris
+            },
             'animation': {
                 'gradient-x':'gradient-x 15s ease infinite',
                 'gradient-y':'gradient-y 15s ease infinite',
