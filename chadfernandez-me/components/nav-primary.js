@@ -14,18 +14,20 @@ const MenuLink = forwardRef((props, ref) => {
   );
 });
 
-MenuLink.displayName = 'MenuLink';
+MenuLink.displayName = "MenuLink";
 
 function NavPrimary() {
   return (
     <Menu>
       {({ open }) => (
         <>
-          <div className="flex flex-col shadow-md text-colorCharcoal">
-            <div className="flex items-center justify-between px-6 py-3 bg-colorCultured bg-opacity-90 backdrop-blur-lg">
+          <div className="flex flex-col text-colorCharcoal shadow-md">
+            <div className="flex items-center justify-between bg-colorCultured bg-opacity-90 px-6 py-3 backdrop-blur-lg">
               <div>
                 <Link href="/">
-                  <h1 className="font-semibold cursor-pointer hover:text-colorVerdigris">Chad Fernandez</h1>
+                  <h1 className="cursor-pointer font-semibold hover:text-colorVerdigris">
+                    Chad Fernandez
+                  </h1>
                 </Link>
               </div>
 
@@ -34,14 +36,14 @@ function NavPrimary() {
                   <div className="flex md:hidden">
                     <Menu.Button>
                       {open ? (
-                        <XIcon className="w-6 h-6" />
+                        <XIcon className="h-6 w-6" />
                       ) : (
-                        <MenuIcon className="w-6 h-6" />
+                        <MenuIcon className="h-6 w-6" />
                       )}
                     </Menu.Button>
                   </div>
 
-                  <div className="hidden text-sm font-medium divide-x md:flex">
+                  <div className="hidden divide-x text-sm font-medium md:flex">
                     <Link href="/">
                       <a className="px-4 hover:text-colorVerdigris">Home</a>
                     </Link>
@@ -58,7 +60,7 @@ function NavPrimary() {
 
             <Menu.Items className="md:hidden">
               <div className="border-t-[1px] border-colorVerdigris bg-colorCultured bg-opacity-80 px-6 py-2 shadow backdrop-blur-lg">
-                <div className="flex flex-col text-lg font-semibold text-right">
+                <div className="flex flex-col text-right text-lg font-semibold">
                   <Menu.Item>
                     <MenuLink className="py-3" href="/">
                       Home
