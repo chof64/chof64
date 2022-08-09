@@ -1,15 +1,14 @@
-import Head from "next/head";
-
+import NavPrimary from "../components/nav-primary";
 import HeroUnderConstruction from "../components/hero-under-construction";
 
 function Index() {
   return (
     <>
-      <Head>
-        <title>Chad Fernandez, 🇵🇭, Student</title>
-      </Head>
-
-      <HeroUnderConstruction />
+      <div className="fixed top-0 z-50 w-screen">
+        <NavPrimary className="" />
+      </div>
+      <HeroUnderConstruction className="z-0" />
+      <div className="h-[200vw]" />
     </>
   );
 }
