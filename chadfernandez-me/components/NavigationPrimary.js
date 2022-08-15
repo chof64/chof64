@@ -4,7 +4,9 @@ import { forwardRef } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const MenuLink = forwardRef((props, ref) => {
+  MenuLink.displayName = "MenuLink";
   let { href, children, ...rest } = props;
+  
   return (
     <Link href={href}>
       <a ref={ref} {...rest}>
@@ -14,18 +16,17 @@ const MenuLink = forwardRef((props, ref) => {
   );
 });
 
-MenuLink.displayName = "MenuLink";
 
 function NavPrimary() {
   return (
     <Menu>
       {({ open }) => (
         <>
-          <div className="flex flex-col text-colorCharcoal shadow-md">
-            <div className="flex items-center justify-between bg-colorCultured bg-opacity-90 px-6 py-3 backdrop-blur-lg">
+          <div className="flex flex-col shadow-md text-colorDarkSlateGray">
+            <div className="flex items-center justify-between px-6 py-3 bg-colorWhite bg-opacity-90 backdrop-blur-lg">
               <div>
                 <Link href="/">
-                  <h1 className="cursor-pointer font-semibold hover:text-colorVerdigris">
+                  <h1 className="font-semibold cursor-pointer hover:text-colorPersianGreen">
                     Chad Fernandez
                   </h1>
                 </Link>
@@ -36,22 +37,22 @@ function NavPrimary() {
                   <div className="flex md:hidden">
                     <Menu.Button>
                       {open ? (
-                        <XIcon className="h-6 w-6" />
+                        <XIcon className="w-6 h-6" />
                       ) : (
-                        <MenuIcon className="h-6 w-6" />
+                        <MenuIcon className="w-6 h-6" />
                       )}
                     </Menu.Button>
                   </div>
 
-                  <div className="hidden divide-x text-sm font-medium md:flex">
+                  <div className="hidden text-sm font-medium divide-x md:flex">
                     <Link href="/">
-                      <a className="px-4 hover:text-colorVerdigris">Home</a>
+                      <a className="px-4 hover:text-colorPersianGreen">Home</a>
                     </Link>
                     <Link href="#">
-                      <a className="px-4 hover:text-colorVerdigris">About</a>
+                      <a className="px-4 hover:text-colorPersianGreen">About</a>
                     </Link>
                     <Link href="#">
-                      <a className="px-4 hover:text-colorVerdigris">Contact</a>
+                      <a className="px-4 hover:text-colorPersianGreen">Contact</a>
                     </Link>
                   </div>
                 </nav>
@@ -59,8 +60,8 @@ function NavPrimary() {
             </div>
 
             <Menu.Items className="md:hidden">
-              <div className="border-t-[1px] border-colorVerdigris bg-colorCultured bg-opacity-80 px-6 py-2 shadow backdrop-blur-lg">
-                <div className="flex flex-col text-right text-lg font-semibold">
+              <div className="border-t-[1px] border-colorPersianGreen bg-colorWhite bg-opacity-80 px-6 py-2 shadow backdrop-blur-lg">
+                <div className="flex flex-col text-lg font-semibold text-right">
                   <Menu.Item>
                     <MenuLink className="py-3" href="/">
                       Home
@@ -81,7 +82,6 @@ function NavPrimary() {
             </Menu.Items>
           </div>
 
-          <div>{console.log("Open is", open)}</div>
         </>
       )}
     </Menu>
