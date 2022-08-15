@@ -1,9 +1,11 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
-export default function Document() {
+function Document() {
   return (
     <Html lang="en">
-      <Head></Head>
+      <Head>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Heebo&display=swap" rel="stylesheet" />
+      </Head>
       <body>
         <Main />
         <NextScript />
@@ -11,3 +13,5 @@ export default function Document() {
     </Html>
   );
 }
+
+export default Document;
