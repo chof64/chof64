@@ -1,6 +1,8 @@
 
 # [chadfernandez.me](https://chadfernandez.me)
 
+<img src='https://bettercodehub.com/edge/badge/chof64/chof64?branch=main'>
+
 Development: [dev.chof64.vercel.app](https://dev.chof64.vercel.app)
 Production: [chadfernandez.me](https://chadfernandez.me)
 
