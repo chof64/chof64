@@ -1,23 +1,21 @@
 import LayoutGlobal from "../components/LayoutGlobal";
 
-function Template(){
-  return(
+function Template() {
+  return (
     <>
       <div>
         <h1>This is a default template</h1>
       </div>
     </>
-  )
+  );
 }
 
-Template.getLayout = function getLayout(page){
-  return(
+Template.getLayout = function getLayout(page) {
+  return (
     <LayoutGlobal>
-      <>
-        {page}
-      </>
+      <>{page}</>
     </LayoutGlobal>
-  )
-}
+  );
+};
 
-export default Template 
+export default Template;
