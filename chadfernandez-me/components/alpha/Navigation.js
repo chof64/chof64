@@ -3,11 +3,13 @@ import { Menu } from "@headlessui/react";
 import { forwardRef } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
-
-
-
-
 function Navigation(){
+
+  const navigation = [
+    {"name": "Home", "href": "/"},
+    {"name": "About", "href": "#"},
+    {"name": "Contact", "href": "#"},
+  ];
 
   const MenuLink = forwardRef((props, ref) => {
     MenuLink.displayName = "MenuLink";
@@ -26,55 +28,44 @@ function Navigation(){
     <>
       <Menu>
         {({ open }) => (
-          <>
-            <div className='mb-10'>
-              <div className='flex items-center justify-between pt-2 pb-2 bg-white border-b-2 border-opacity-10 border-colorDark'>
+          <div className={"mb-4"}>
+            <div className={"flex justify-center py-2 border-b"}>
+              <div className={"flex justify-between items-center w-[90vw] md:w-[80vw]"}>
+                
                 <div>
-                  <Link href="/"><h1 className='font-semibold tracking-wider cursor-pointer text-colorAccentBlue hover:text-colorAccentDarkBlue'>Chad Fernandez</h1></Link>
+                  <Link href="/"><h1 className={"font-medium cursor-pointer"}>Chad Fernandez</h1></Link>
                 </div>
-
+                
                 <div>
                   <nav>
-                    <div className='flex lg:hidden'>
-                      <Menu.Button>
-                        {open ? (
-                          <XIcon className="w-6 h-6" />
-                        ) : (
-                          <MenuIcon className="w-6 h-6" />
-                        )}
-                      </Menu.Button>
-                    </div>
-
-                    <div className='items-center hidden align-middle lg:flex'>
-                      <Link href="/"><a className='px-4 py-[0.05rem] border-0 rounded-md hover:bg-colorAccentBlue hover:bg-opacity-10 hover:text-colorAccentDarkBlue'>Home</a></Link>
-                      <Link href="#"><a className='px-4 py-[0.05rem] border-0 rounded-md hover:bg-colorAccentBlue hover:bg-opacity-10 hover:text-colorAccentDarkBlue'>About</a></Link>
-                      <Link href="#"><a className='px-4 py-[0.05rem] border-0 rounded-md hover:bg-colorAccentBlue hover:bg-opacity-10 hover:text-colorAccentDarkBlue'>Contact</a></Link>
+                    <Menu.Button as={"div"} className={"md:hidden"}>
+                      {open ? (
+                        <XIcon className="w-6 h-6" />
+                      ) : (
+                        <MenuIcon className="w-6 h-6" />
+                      )}
+                    </Menu.Button>
+                    <div className={"hidden md:flex items-center"}>
+                      {navigation.map((item) =>(
+                        <Link href={item.href}><a className={"text-sm hover:bg-blue-200 bg-white px-4 py-1 border-[0.5px] first:border-r-0 first:rounded-l-lg last:border-l-0 last:rounded-r-lg"}>{item.name}</a></Link>
+                      ))}
                     </div>
                   </nav>
                 </div>
+                
               </div>
-
-              <Menu.Items as='div' className='absolute lg:hidden z-[100] bg-white w-full max-h-[40vh] shadow-2xl rounded-lg border-[1px] border-colorAccentDarkBlue'>
-                <div className='flex flex-col mx-4 my-4 font-semibold gap-y-2'>
-                  <Menu.Item>
-                    <MenuLink className='px-4 py-3 border-[0.5px] rounded-lg border-colorAccentBlue' href="/">Home</MenuLink>
-                  </Menu.Item>
-                  <Menu.Item>
-                    <MenuLink className='px-4 py-3 border-[0.5px] rounded-lg border-colorAccentBlue' href="#">About</MenuLink>
-                  </Menu.Item>
-                  <Menu.Item>
-                    <MenuLink className='px-4 py-3 border-[0.5px] rounded-lg border-colorAccentBlue' href="#">Contact</MenuLink>
-                  </Menu.Item>
-                </div>
-              </Menu.Items>
-
-              {open ? 
-                <div className='fixed inset-0 backdrop-blur-[2px] lg:hidden bg-slate-100 bg-opacity-50' />
-                  : 
-                ''
-              }
             </div>
-          </>
+
+            <Menu.Items as={"div"} className={"flex justify-center md:hidden absolute max-h-[60vh] w-full bg-slate-50 rounded-b-xl border-b-[0.5px] shadow-sm"}>
+              <div className={"flex flex-col w-[90vw] my-2"}>
+                {navigation.map((item) => (
+                  <Menu.Item>
+                    <MenuLink className={"bg-white shadow-sm py-3 pl-2 border rounded-xl my-0.5 text-sm font-semibold"} href={item.href}>{item.name}</MenuLink>
+                  </Menu.Item>
+                ))}
+              </div>
+            </Menu.Items>
+          </div>
         )}
       </Menu>
     </>
