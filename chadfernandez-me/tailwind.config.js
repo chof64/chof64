@@ -6,10 +6,10 @@ module.exports = {
     ],
     theme: {
         extend: {
-            fontFamily: {
-                'sans': ['Inter'],
-            },
-            "colors": {
+            'fontFamily': {
+                'sans': ['Roboto'],
+            },            
+            'colors': {
                 //* https://coolors.co/ffffff-2f4b4f-00a79a
                 'colorLight': '#ffffff', 
                 'colorDark': '#2a2a29', 
