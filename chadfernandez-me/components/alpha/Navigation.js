@@ -45,9 +45,9 @@ function Navigation() {
                 <nav>
                   <Menu.Button as={"div"} className={"md:hidden"}>
                     {open ? (
-                      <XIcon className="w-6 h-6" />
+                      <XIcon className="h-6 w-6" />
                     ) : (
-                      <MenuIcon className="w-6 h-6" />
+                      <MenuIcon className="h-6 w-6" />
                     )}
                   </Menu.Button>
                   <div className={"hidden items-center md:flex"}>

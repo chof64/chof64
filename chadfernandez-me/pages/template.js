@@ -1,19 +1,23 @@
 import LayoutGlobal from "../components/LayoutGlobal";
 
-function Index(){
+function Template(){
   return(
     <>
-
+      <div>
+        <h1>This is a default template</h1>
+      </div>
     </>
   )
 }
 
-Index.getLayout = function getLayout(page){
+Template.getLayout = function getLayout(page){
   return(
     <LayoutGlobal>
-      {page}
+      <>
+        {page}
+      </>
     </LayoutGlobal>
   )
 }
 
-export default Index 
+export default Template 
