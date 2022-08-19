@@ -6,11 +6,15 @@ module.exports = {
     ],
     theme: {
         extend: {
-            "colors": {
-                //* https://coolors.co/233d4d-f9f9f9-28afb0
-                'colorCultured': '#F9F9F9', //? Cultured
-                'colorCharcoal': '#233D4D', //? Charcoal
-                'colorVerdigris': '#28AFB0', //? Verdigris
+            'fontFamily': {
+                'sans': ['Roboto'],
+            },            
+            'colors': {
+                //* https://coolors.co/ffffff-2f4b4f-00a79a
+                'colorLight': '#ffffff', 
+                'colorDark': '#2a2a29', 
+                'colorAccentBlue': '#008792', 
+                'colorAccentDarkBlue': '#00646d',
             },
             'animation': {
                 'gradient-x':'gradient-x 15s ease infinite',
