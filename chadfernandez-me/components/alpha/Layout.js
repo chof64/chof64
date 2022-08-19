@@ -2,12 +2,13 @@ import Navigation from "./Navigation";
 
 function Layout({ children }) {
   return (
-    <main className={"subpixel-antialiased"}>
-      <div className={"sticky top-0 z-[100]"}>
+    <main className="subpixel-antialiased">
+      <div className="sticky top-0 z-[100]">
         <Navigation />
       </div>
-      <div className={"flex flex-col items-center"}>
-        <div className={"w-[90vw] md:w-[80vw]"}>{children}</div>
+      {/* usable height after navigation bar is 91.45vh */}
+      <div className="flex flex-col items-center mt-2">
+        <div className="w-[90vw] md:w-[80vw]">{children}</div>
       </div>
     </main>
   );
