@@ -25,7 +25,7 @@ function Index() {
           to learn more.
         </p>
         <div className="absolute flex -top-0.5 -right-0.5">
-          <span className="absolute w-3 h-3 bg-red-600 border-0 rounded-full shadow-sm animate-ping" />
+          <span className="absolute w-3 h-3 bg-red-600 border-0 rounded-full shadow-sm motion-safe:animate-ping" />
           <span className="relative w-3 h-3 bg-red-600 border-0 rounded-full shadow-sm" />
         </div>
       </div>
