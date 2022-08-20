@@ -60,7 +60,7 @@ function Navigation() {
           </div>
           <Menu.Items
             as={"div"}
-            className="absolute flex max-h-[60vh] w-full justify-center rounded-b-xl border-b-[0.5px] bg-gray-50 pb-1 shadow-sm focus:outline-0 md:hidden"
+            className="absolute flex max-h-[60vh] w-full justify-center rounded-b-xl border-b-[0.5px] bg-gray-100 pb-1 shadow-sm focus:outline-0 md:hidden"
           >
             <div className="my-2 flex w-[90vw] flex-col gap-y-1">
               {navigation.map((item, index) => (
