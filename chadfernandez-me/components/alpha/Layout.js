@@ -7,8 +7,8 @@ function Layout({ children }) {
         <Navigation />
       </div>
       {/* usable height after navigation bar is 91.45vh */}
-      <div className="mt-2 flex flex-col items-center">
-        <div className="w-[90vw] md:w-[80vw]">{children}</div>
+      <div className="flex flex-col items-center mt-2">
+        <div className="w-[90vw] md:w-[80vw] lg:w-[70vw]">{children}</div>
       </div>
     </main>
   );

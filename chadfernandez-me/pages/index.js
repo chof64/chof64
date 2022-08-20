@@ -59,7 +59,7 @@ function Index() {
           <div className="flex flex-col w-full md:flex-row">
             {socialLinks.map((social, index) => (
               <a
-                className="px-2 py-2 font-medium bg-white border border-t-0 border-green-600 shadow-md shadow-zinc-200 last:rounded-b-xl hover:bg-sky-100 hover:text-sky-900 md:w-full md:border-0 md:border-r md:border-b md:first:rounded-bl-xl first:md:border-l md:last:rounded-none md:last:rounded-br-xl"
+                className="px-6 py-2 font-medium bg-white border border-t-0 border-green-600 shadow-md shadow-zinc-200 last:rounded-b-xl hover:bg-sky-100 hover:text-sky-900 md:w-full md:border-0 md:border-r md:border-b md:first:rounded-bl-xl first:md:border-l md:last:rounded-none md:last:rounded-br-xl"
                 key={index}
                 href={social.href}
                 target="_blank"
