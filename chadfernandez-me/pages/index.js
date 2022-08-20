@@ -10,7 +10,7 @@ function Index() {
 
   return (
     <div>
-      <div className="relative px-4 py-2 text-sm font-light text-center border border-gray-400 shadow bg-red-50 rounded-xl">
+      <div className="relative px-4 py-2 mb-4 text-sm font-light text-center border border-gray-400 shadow bg-red-50 rounded-xl">
         <p>
           Hello, my website is still under development. New changes are uploaded
           every week. Visit the{" "}
@@ -45,7 +45,7 @@ function Index() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:max-w-md">
+        <div className="flex flex-col lg:max-w-md xl:max-w-lg 2xl:max-w-[60%]">
           <div className="rounded-t-xl border border-b-[0.5px] border-gray-400 animate-gradient-xy bg-gradient-to-br shadow-md shadow-gray-200 from-cyan-100 to-green-200 ">
             <div className="flex flex-col px-4 py-6 text-center border-0 rounded-t-xl gap-y-3 md:text-start backdrop-blur-3xl bg-gray-200/25">
               <h1 className="text-2xl font-semibold md:text-3xl">
