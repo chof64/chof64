@@ -9,6 +9,7 @@ module.exports = {
         extend: {
             'fontFamily': {
                 'sans': ['Roboto'],
+                'mono': ['JetBrains Mono']
             },            
             'colors': {
                 //* https://coolors.co/ffffff-2f4b4f-00a79a

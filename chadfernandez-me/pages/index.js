@@ -1,5 +1,5 @@
-import LayoutGlobal from "../components/LayoutGlobal";
-import Layout from "../components/alpha/Layout";
+import LayoutGlobal from "/src/components/LayoutGlobal";
+import Layout from "/src/components/alpha/Layout";
 import Image from "next/image";
 
 function Index() {
@@ -9,8 +9,24 @@ function Index() {
   ];
 
   return (
-    <div>
-      
+    <div className='flex flex-col items-center'>
+      <div className='w-[90vw] md:w-[75vw] lg:w-[60vw] mt-32'>
+        <div className='flex flex-col max-w-md gap-y-4'>
+          <div className='flex items-center text-neutral-800'>
+            <h1 className='text-lg font-semibold md:text-2xl'>👋Hi, I&apos;m Chad Fernandez</h1>
+            <span className='py-0.5 px-1.5 ml-2 bg-blue-50 font-medium text-blue-600 align-middle font-mono rounded-lg text-xs md:text-xs'>he/him</span>
+          </div>
+          <div className='flex flex-col leading-relaxed gap-y-4'>
+            <p className='font-medium md:text-lg'>
+              I&apos;m an aspiring Python programmer and Web Developer.
+            </p>
+            <p>
+              I&apos;m from the Philippines and a freshman at the University of Antique,
+              studying Bachelor of Science in Computer Science
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
