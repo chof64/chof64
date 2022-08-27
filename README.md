@@ -1,4 +1,4 @@
-<h1 align="center">👋: Chad Fernandez, 🇵🇭, Student</h1>
+<h1 align="center">👋: Chad Fernandez, Student</h1>
 <h3 align="center">an aspiring <b>Python</b> and <b>Web Developer</b>.</h3>
 
 
