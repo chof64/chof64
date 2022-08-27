@@ -1,4 +1,4 @@
-import LayoutGlobal from "../components/LayoutGlobal";
+import LayoutGlobal from "/src/components/LayoutGlobal";
 
 function Template() {
   return (
