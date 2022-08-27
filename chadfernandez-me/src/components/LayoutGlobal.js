@@ -7,11 +7,16 @@
 import Head from "next/head";
 
 function LayoutGlobal({ title, children }) {
+
+  // if title is defined, add  "defined" in the end, if not, add "undefined".
+  const titleText = title ? `${title} - defined` : `undefined - defined`;
+
+
   return (
     <>
       <Head>
         {/* //? Dynamic Tags */}
-        <title>{title || "Chad Fernandez, 🇵🇭, Student"}</title>
+        <title>{ title ? "${title} - Chad Fernandez" : "Chad Fernandez - Student, Python, Web Developer" }</title>
 
         {/* //? Static Tags */}
         <meta charSet="utf-8" />
