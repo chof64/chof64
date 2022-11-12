@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on [**My personal website**](https://www.github.com/chof64/chof64)
 - 🌱 I’m currently learning **Next.js + Tailwind CSS**
-- 📫 How to reach me: [**chadfernandez@duck.com**](mailto:chadfernandez@duck.com)
+- 📫 How to reach me: [**contact@chadfernandez.me**](mailto:contact@chadfernandez.me) / [**me@chadfernandez.me**](mailto:me@chadfernandez.me)
 - 😄 Pronouns: **he/him/his**
 
 
