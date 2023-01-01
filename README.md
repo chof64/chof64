@@ -1,16 +1,21 @@
-<h1 align="center">👋: Chad Fernandez, Student</h1>
-<h3 align="center">an aspiring <b>Python</b> and <b>Web Developer</b>.</h3>
+# Chad Fernandez
+<sup>(A self-taught fullstack developer)<sup>
 
 
-- 🔭 I’m currently working on [**My personal website**](https://www.github.com/chof64/chof64)
+I'm an all around *tech savvy* earthling.
+
+I'm from the Philippines, and currently taking **Bachelor of Science in Computer Science** from the **University of Antique**.
+
+I'm a self-taught fullstack developer, working with **Next.js**, **Tailwind CSS**, and **Python**. I like building things and sharing them with the world.
+
+  
+### Summary
+  
+- 🔭 I’m currently working on 
 - 🌱 I’m currently learning **Next.js + Tailwind CSS**
-- 📫 How to reach me: [**contact@chadfernandez.me**](mailto:contact@chadfernandez.me) / [**me@chadfernandez.me**](mailto:me@chadfernandez.me)
-- 😄 Pronouns: **he/him/his**
-
-
-## About me...
-I'm Chad Fernandez, an aspiring Python and Web Developer. I'm from the Philippines and a freshman at the University of Antique, studying Bachelor of Science in Computer Science.
-
+- 👯 I’m looking to collaborate on **Frontend Website Development with Next.js and Tailwind CSS**
+- 📫 How to reach me: [**contact@chadfernandez.me](mailto:contact@chadfernandez.me)
+- 😄 Pronouns: he/him/his
 
 
 <!--
