@@ -3,7 +3,9 @@ hey, I'm Chad👋
 I'm a multidisciplinary enthusiast, straddling the worlds of web development, design, and academia. Currently pursuing my Computer Science degree at the University of Antique, I channel my spare time into crafting digital experiences.
 
 I'm fascinated by all things tech! I enjoy diving into the world of technology, whether it's building cool websites or managing service deployments with Docker. I'm a fan of using JavaScript, especially Next.js, and I'm drawn to a clean and minimal design style with the help of Tailwind CSS.
-  
+
+[chadfernandez.me](https://www.chadfernandez.me/)
+
 ### Quick Facts
 
 - 🌱 I’m currently learning **building a full-stack app**.
