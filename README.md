@@ -1,12 +1,25 @@
+# Hi, I'm Chad Fernandez
 
-I'm Chad Fernandez
+**Software Engineer based in Iloilo City, Philippines.**
 
-Driven by a love for technology and a mission to build web apps that matter. My passion for coding drives me to create functional, minimalistic websites that solve real-world problems.
+I'm a self-taught developer who started learning to code in 2020. I build software focused on solving real-world problems, turning ideas into practical solutions that people can use.
 
-I'm a student studying Information Technology and on a journey of learning and growing as a web developer.
+I enjoy working across the entire development lifecycle, from planning and designing solutions to development, deployment, and hosting. Beyond writing code, I also work with the infrastructure that keeps applications running.
 
-## Quick Facts
+### What I Do
 
-- 🌱 I’m currently learning how to **make AI**.
-- 📫 How to reach me: **[contact@chadfernandez.me](mailto:contact@chadfernandez.me)**
-- 😄 Pronouns: **he/him/his**
+- **Software Development** — Building applications that address real-world needs.
+- **Planning & Architecture** — Translating ideas and requirements into practical technical solutions.
+- **Deployment & Hosting** — Taking projects from development to production.
+- **Infrastructure & Server Management** — Managing VPS instances, servers, DNS, and hosting environments.
+
+### How I Work
+
+I like understanding the bigger picture, not just the code. I take a hands-on approach to building and maintaining software, handling everything from the initial planning stages to deployment and ongoing infrastructure management.
+
+I'm always looking for ways to build useful software, improve my craft, and solve problems through technology.
+
+### Get in Touch
+
+- Email: [contact@chadfernandez.me](mailto:contact@chadfernandez.me)
+- Location: Iloilo City, Philippines
